@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DD2D8E19FE7E7500B1B5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2D8D19FE7E7500B1B5BB /* main.m */; };
+		03DD2D9119FE7E7500B1B5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2D9019FE7E7500B1B5BB /* AppDelegate.m */; };
+		03DD2D9419FE7E7500B1B5BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2D9319FE7E7500B1B5BB /* ViewController.m */; };
+		03DD2D9719FE7E7500B1B5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DD2D9519FE7E7500B1B5BB /* Main.storyboard */; };
+		03DD2D9919FE7E7500B1B5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DD2D9819FE7E7500B1B5BB /* Images.xcassets */; };
+		03DD2D9C19FE7E7500B1B5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DD2D9A19FE7E7500B1B5BB /* LaunchScreen.xib */; };
+		03DD2DA819FE7E7500B1B5BB /* BrailleTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2DA719FE7E7500B1B5BB /* BrailleTouchTests.m */; };
+		03DD2DB319FE86F900B1B5BB /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2DB219FE86F900B1B5BB /* Action.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DD2DA219FE7E7500B1B5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DD2D8019FE7E7400B1B5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DD2D8719FE7E7400B1B5BB;
+			remoteInfo = BrailleTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DD2D8819FE7E7500B1B5BB /* BrailleTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrailleTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DD2D8C19FE7E7500B1B5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DD2D8D19FE7E7500B1B5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03DD2D8F19FE7E7500B1B5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03DD2D9019FE7E7500B1B5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03DD2D9219FE7E7500B1B5BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03DD2D9319FE7E7500B1B5BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03DD2D9619FE7E7500B1B5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03DD2D9819FE7E7500B1B5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03DD2D9B19FE7E7500B1B5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03DD2DA119FE7E7500B1B5BB /* BrailleTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrailleTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DD2DA619FE7E7500B1B5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DD2DA719FE7E7500B1B5BB /* BrailleTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrailleTouchTests.m; sourceTree = "<group>"; };
+		03DD2DB119FE86F900B1B5BB /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		03DD2DB219FE86F900B1B5BB /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DD2D8519FE7E7400B1B5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DD2D9E19FE7E7500B1B5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DD2D7F19FE7E7400B1B5BB = {
+			isa = PBXGroup;
+			children = (
+				03DD2D8A19FE7E7500B1B5BB /* BrailleTouch */,
+				03DD2DA419FE7E7500B1B5BB /* BrailleTouchTests */,
+				03DD2D8919FE7E7500B1B5BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DD2D8919FE7E7500B1B5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DD2D8819FE7E7500B1B5BB /* BrailleTouch.app */,
+				03DD2DA119FE7E7500B1B5BB /* BrailleTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DD2D8A19FE7E7500B1B5BB /* BrailleTouch */ = {
+			isa = PBXGroup;
+			children = (
+				03DD2D8F19FE7E7500B1B5BB /* AppDelegate.h */,
+				03DD2D9019FE7E7500B1B5BB /* AppDelegate.m */,
+				03DD2D9219FE7E7500B1B5BB /* ViewController.h */,
+				03DD2D9319FE7E7500B1B5BB /* ViewController.m */,
+				03DD2D9519FE7E7500B1B5BB /* Main.storyboard */,
+				03DD2D9819FE7E7500B1B5BB /* Images.xcassets */,
+				03DD2D9A19FE7E7500B1B5BB /* LaunchScreen.xib */,
+				03DD2D8B19FE7E7500B1B5BB /* Supporting Files */,
+				03DD2DB119FE86F900B1B5BB /* Action.h */,
+				03DD2DB219FE86F900B1B5BB /* Action.m */,
+			);
+			path = BrailleTouch;
+			sourceTree = "<group>";
+		};
+		03DD2D8B19FE7E7500B1B5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DD2D8C19FE7E7500B1B5BB /* Info.plist */,
+				03DD2D8D19FE7E7500B1B5BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03DD2DA419FE7E7500B1B5BB /* BrailleTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DD2DA719FE7E7500B1B5BB /* BrailleTouchTests.m */,
+				03DD2DA519FE7E7500B1B5BB /* Supporting Files */,
+			);
+			path = BrailleTouchTests;
+			sourceTree = "<group>";
+		};
+		03DD2DA519FE7E7500B1B5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DD2DA619FE7E7500B1B5BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DD2D8719FE7E7400B1B5BB /* BrailleTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DD2DAB19FE7E7500B1B5BB /* Build configuration list for PBXNativeTarget "BrailleTouch" */;
+			buildPhases = (
+				03DD2D8419FE7E7400B1B5BB /* Sources */,
+				03DD2D8519FE7E7400B1B5BB /* Frameworks */,
+				03DD2D8619FE7E7400B1B5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrailleTouch;
+			productName = BrailleTouch;
+			productReference = 03DD2D8819FE7E7500B1B5BB /* BrailleTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DD2DA019FE7E7500B1B5BB /* BrailleTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DD2DAE19FE7E7500B1B5BB /* Build configuration list for PBXNativeTarget "BrailleTouchTests" */;
+			buildPhases = (
+				03DD2D9D19FE7E7500B1B5BB /* Sources */,
+				03DD2D9E19FE7E7500B1B5BB /* Frameworks */,
+				03DD2D9F19FE7E7500B1B5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DD2DA319FE7E7500B1B5BB /* PBXTargetDependency */,
+			);
+			name = BrailleTouchTests;
+			productName = BrailleTouchTests;
+			productReference = 03DD2DA119FE7E7500B1B5BB /* BrailleTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DD2D8019FE7E7400B1B5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = QCRI;
+				TargetAttributes = {
+					03DD2D8719FE7E7400B1B5BB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					03DD2DA019FE7E7500B1B5BB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 03DD2D8719FE7E7400B1B5BB;
+					};
+				};
+			};
+			buildConfigurationList = 03DD2D8319FE7E7400B1B5BB /* Build configuration list for PBXProject "BrailleTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DD2D7F19FE7E7400B1B5BB;
+			productRefGroup = 03DD2D8919FE7E7500B1B5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DD2D8719FE7E7400B1B5BB /* BrailleTouch */,
+				03DD2DA019FE7E7500B1B5BB /* BrailleTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DD2D8619FE7E7400B1B5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DD2D9719FE7E7500B1B5BB /* Main.storyboard in Resources */,
+				03DD2D9C19FE7E7500B1B5BB /* LaunchScreen.xib in Resources */,
+				03DD2D9919FE7E7500B1B5BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DD2D9F19FE7E7500B1B5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DD2D8419FE7E7400B1B5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DD2D9419FE7E7500B1B5BB /* ViewController.m in Sources */,
+				03DD2DB319FE86F900B1B5BB /* Action.m in Sources */,
+				03DD2D9119FE7E7500B1B5BB /* AppDelegate.m in Sources */,
+				03DD2D8E19FE7E7500B1B5BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DD2D9D19FE7E7500B1B5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DD2DA819FE7E7500B1B5BB /* BrailleTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DD2DA319FE7E7500B1B5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DD2D8719FE7E7400B1B5BB /* BrailleTouch */;
+			targetProxy = 03DD2DA219FE7E7500B1B5BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03DD2D9519FE7E7500B1B5BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DD2D9619FE7E7500B1B5BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03DD2D9A19FE7E7500B1B5BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DD2D9B19FE7E7500B1B5BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DD2DA919FE7E7500B1B5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DD2DAA19FE7E7500B1B5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DD2DAC19FE7E7500B1B5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ABDEL RAHMAN GHANEM (8GY2J9E6XD)";
+				INFOPLIST_FILE = BrailleTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03DD2DAD19FE7E7500B1B5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ABDEL RAHMAN GHANEM (88776GQ4ZQ)";
+				INFOPLIST_FILE = BrailleTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03DD2DAF19FE7E7500B1B5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrailleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrailleTouch.app/BrailleTouch";
+			};
+			name = Debug;
+		};
+		03DD2DB019FE7E7500B1B5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrailleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrailleTouch.app/BrailleTouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DD2D8319FE7E7400B1B5BB /* Build configuration list for PBXProject "BrailleTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DD2DA919FE7E7500B1B5BB /* Debug */,
+				03DD2DAA19FE7E7500B1B5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DD2DAB19FE7E7500B1B5BB /* Build configuration list for PBXNativeTarget "BrailleTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DD2DAC19FE7E7500B1B5BB /* Debug */,
+				03DD2DAD19FE7E7500B1B5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DD2DAE19FE7E7500B1B5BB /* Build configuration list for PBXNativeTarget "BrailleTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DD2DAF19FE7E7500B1B5BB /* Debug */,
+				03DD2DB019FE7E7500B1B5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DD2D8019FE7E7400B1B5BB /* Project object */;
+}
