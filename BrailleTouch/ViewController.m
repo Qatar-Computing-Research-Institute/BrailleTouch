@@ -282,14 +282,17 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *filePath = [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"user-%ld.txt",(long)_userId]];
     
-    NSMutableString * stringToStore = [[NSMutableString alloc] initWithString:@""];
+    NSMutableString * stringToStore = [[NSMutableString alloc] initWithString:@"{actions:["];
     
     for ( int i = 0 ; i < _actionsStore.count ; i++ )
     {
         Action * item = [_actionsStore objectAtIndex:i];
         NSString * itemString = [item getStringRepresentation];
-        [stringToStore appendFormat:@"\n%@", itemString];
+        [stringToStore appendFormat:@"\n%@,", itemString];
     }
+    
+    stringToStore = [[stringToStore substringToIndex: stringToStore.length -1] mutableCopy];
+    [stringToStore appendFormat:@"\n]}"];
     
     NSError *error;
     BOOL success = [stringToStore writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:&error];
